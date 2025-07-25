@@ -188,8 +188,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
   }
 }
 
@@ -214,7 +214,7 @@ pre {
     transform: scale(1.2);
     width: 16px;
     height: 16px;
-    margin-left: $spacing-unit * 2.5;
+    // margin-left: $spacing-unit * 2.5;
     display: inline-block;
     fill: #{$text-color};
     vertical-align: middle;
