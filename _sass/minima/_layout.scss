@@ -117,6 +117,10 @@
       .social-media-list {
         display: flex;
         justify-content: space-around;
+
+        .svg-icon {
+          transform: scale(1.5);
+        }
       }
     }
     .nav-container.slide-in {
@@ -355,5 +359,29 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+  }
+}
+
+
+/**
+ * Home layout
+ */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-unit;
+}
+
+.home-wrapper {
+  flex: 3;
+  min-width: $on-palm / 2 - $spacing-unit * 1.5;
+}
+
+.home-image {
+  flex: 2;
+  min-width: $on-palm / 2 - $spacing-unit * 1.5;
+
+  img {
+    border-radius: $spacing-unit / 4;
   }
 }

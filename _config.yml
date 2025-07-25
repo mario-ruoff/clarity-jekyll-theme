@@ -30,10 +30,16 @@ linkedin_username: jekyllrb
 twitter_username: jekyllrb
 github_username:  jekyll
 
+header_pages:
+  - index.md
+  - projects.md
+  - resume.md
+  - about.md
+
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

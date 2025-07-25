@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Home
+imageurl: profile.webp
 ---
+
+# Hello, I am <>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in turpis tincidunt, condimentum felis ac, tincidunt mauris. Cras id eros sit amet sem porttitor gravida. Nunc sed mattis augue, sed lobortis tellus.
