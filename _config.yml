@@ -36,6 +36,11 @@ header_pages:
   - resume.md
   - about.md
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # Build settings
 theme: minima
 plugins:

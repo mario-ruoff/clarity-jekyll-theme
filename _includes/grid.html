@@ -1,0 +1,10 @@
+{% assign gridColor = "hsl(" | append: project.pagecolorhue | default: 0 | append: ", 70%, 90%)" %}
+{% assign gridColorBg = "hsla(" | append: project.pagecolorhue | default: 0 | append: ", 70%, 90%, 0.5)" %}
+
+<div class="grid-item" style="--grid-color: {{ gridColorBg }}">
+  <a href="{{ project.url | relative_url }}">
+    <img class="grid-img-hover" src="/assets/images/{{ project.imageurl }}" alt="{{ project.title | escape }}" style="background-color: {{ gridColor }};">
+  </a>
+  <h2>{{ project.title }}</h2>
+  <p>{{ project.description }}</p>
+</div>
