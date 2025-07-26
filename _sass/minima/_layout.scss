@@ -69,11 +69,16 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+  }
 
-    // Gaps between nav items, but not on the last one
-    // &:not(:last-child) {
-    //   margin-right: $spacing-unit * 2;
-    // }
+  a {
+    text-underline-offset: 2px;
+  }
+  
+  .active {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1.5px;
   }
 
   @include media-query($on-palm) {
