@@ -9,7 +9,7 @@ layout: default
   </div>
 
   <div class="home-image">
-    <img src="/assets/images/{{ page.imageurl }}">
+    <img src="{{ '/assets/images/' | append: page.imageurl | relative_url }}">
   </div>
 
   {%- if site.posts.size > 0 -%}

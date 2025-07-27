@@ -3,7 +3,7 @@
 
 <div class="grid-item" style="--grid-color: {{ gridColorBg }}">
   <a href="{{ project.url | relative_url }}">
-    <img src="/assets/images/{{ project.imageurl }}" style="background-color: {{ gridColor }};">
+    <img src="{{ '/assets/images/' | append: project.imageurl | relative_url }}" style="background-color: {{ gridColor }};">
   </a>
   <h2>{{ project.title }}</h2>
   <p>{{ project.description }}</p>

@@ -21,8 +21,8 @@
           </div>
 
           <div class="project-image">
-            <img class="foreground" src="/assets/images/{{ page.imageurl }}">
-            <img class="background" src="/assets/images/{{ page.imageurl }}">
+            <img class="foreground" src="{{ '/assets/images/' | append: page.imageurl | relative_url }}">
+            <img class="background" src="{{ '/assets/images/' | append: page.imageurl | relative_url }}">
           </div>
 
         </div>
